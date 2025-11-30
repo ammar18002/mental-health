@@ -13,7 +13,7 @@ Jupyter Notebook
 
 macOS Intel (no GPU)
 
-# ❌ 2. Major Problems Encountered
+❌ 2. Major Problems Encountered
 
 While using AutoGluon 1.4.0, the notebook repeatedly crashed before or during training.
 
@@ -30,8 +30,8 @@ Jupyter Notebook’s renderer also crashed after large text output.
 
 This resulted in repeated kernel deaths and the inability to finish training.
 
-# ⚙️ 3. The Fix — Using AutoGluon 0.8.2 (Tabular Only)
-# 🛠️ 4. Fixing the Final Crash — LightGBM Threading
+⚙️ 3. The Fix — Using AutoGluon 0.8.2 (Tabular Only)
+🛠️ 4. Fixing the Final Crash — LightGBM Threading
 
 Even with AutoGluon 0.8.2, LightGBM attempted multi-threaded training, which crashed macOS kernels.
 
